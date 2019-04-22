@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat#css);
+html {
+  background-color: #f9f9fb;
+}
+body {  
+  font-family: 'Montserrat';
+  padding-top:40px;
+  font-weight: 400;
+  letter-spacing: -.01em;
+}
+
+.clock-container {
+  width:33%;
+  margin-bottom:20px;
+  display:block;
+  float:left;
+  text-align:center;
+  margin-bottom:3%;
+}
+
+.clock-container .react-clock {
+  margin:0 auto;
+}
+
+.clock-container h2 {
+  font-size:1.2em;
+  line-height: 0;
+  margin-top:30px;
+}
+
+.clock-container h3 {
+  font-size:2em;
+  font-weight: bold;
+  line-height: 0;
+  color:#633f7c;
+  margin-top:40px;
+  margin-bottom:30px;
+  text-transform: uppercase;
+}
+
+.clock-container h4 {
+  font-size:30px;
+  line-height: 0;
+  margin:0;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .clock-container {
+    width:100%;
+  }
+} 
